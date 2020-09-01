@@ -1,0 +1,76 @@
+#1. What are the different genres? 23 prime_genre
+Games
+Productivity
+Weather
+Shopping
+Reference
+Finance
+Music
+Utilities
+Travel
+Social Networking
+Sports
+Business
+Health & Fitness
+Entertainment
+Photo & Video
+Navigation
+Education
+Lifestyle
+Food & Drink
+News
+Book
+Medical
+Catalogs
+
+#2. Which is the genre with the most apps rated? 
+Social Networking is the genre of Apps with the most apps rated
+
+#3. Which is the genre with most apps? 
+Games app is the genre with most apps
+
+#4 Which is the one with least? 
+Catalogs is the genre with least apps
+
+#5. Find the top 10 apps most rated. Facebook,.
+Facebook
+Instagram
+Clash of Clans
+Temple Run
+Pandora - Music & Radio
+Pinterest
+Bible
+Candy Crush Saga
+Spotify Music
+Angry Birds
+
+#6. Find the top 10 apps best rated by users.
+TurboScanã¢ Pro - document & receipt scanner: scan multiple pages and photos to PDF
+Flashlight Òã
+Learn to Speak Spanish Fast With MosaLingua
+:) Sudoku +
+The Photographer's Ephemeris
+King of Dragon Pass
+Escape the Sweet Shop Series
+Infinity Blade
+Plants vs. Zombies HD
+Plants vs. Zombies
+
+#7.Take a look at the data you retrieved in question 5. Give some insights - top 10 Apps
+#All the Apps are free
+
+#8.Take a look at the data you retrieved in question 6. Give some insights - top 10 Apps best rated by users
+#Most of them are really highly rated,the total rating count is not always high
+
+#9. Now compare the data from questions 5 and 6. What do you see?
+
+#10. How could you take the top 3 regarding both user ratings and number of votes?
+select * from Appstore
+order by user_rating DESC, rating_count_tot DESC
+LIMIT 3;
+
+#11. Do people care about the price of an app?
+People votes more when the App is free.
+The reply could be more intresting with the dowloaded rate of Apps to make
+
+
