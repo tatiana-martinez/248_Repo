@@ -54,7 +54,7 @@ GROUP BY Title_ID, Author_ID;
 CREATE TEMPORARY TABLE publications.step2
 SELECT Title_ID, Author_ID, SUM(Royalty) AS Royalty, Advance
 FROM step1
-GROUP BY Title_ID, Author_ID÷;njhg. e
+GROUP BY Title_ID, Author_ID;
 
 
 
