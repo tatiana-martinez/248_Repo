@@ -1,0 +1,1545 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20203.20.0801.1333                               -->
+<workbook original-version='18.1' source-build='2020.3.0 (20203.20.0801.1333)' source-platform='mac' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <_.fcp.MarkAnimation.true...MarkAnimation />
+    <_.fcp.ObjectModelEncapsulateLegacy.true...ObjectModelEncapsulateLegacy />
+    <_.fcp.ObjectModelTableType.true...ObjectModelTableType />
+    <_.fcp.SchemaViewerObjectModel.true...SchemaViewerObjectModel />
+    <SheetIdentifierTracking />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <datasources>
+    <datasource caption='nfl_football_team_stats (nfl_football_team_stats)' inline='true' name='federated.1ngqhpr19syuwf1ct8kqx124hgma' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='nfl_football_team_stats' name='excel-direct.0jufhti1snf6gp18rh3kp0q4fusd'>
+            <connection class='excel-direct' cleaning='no' compat='no' dataRefreshTime='' filename='/Users/tatiana/ironhack/248_Repo/Labs/module_2/Tableau-Data-Viz/data/nfl_football_team_stats.xlsm' interpretationMode='0' password='' server='' validate='no' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='excel-direct.0jufhti1snf6gp18rh3kp0q4fusd' name='nfl_football_team_stats' table='[nfl_football_team_stats$]' type='table'>
+          <columns gridOrigin='A1:AP4094:no:A1:AP4094:0' header='yes' outcome='2'>
+            <column datatype='integer' name='Year' ordinal='0' />
+            <column datatype='string' name='Date' ordinal='1' />
+            <column datatype='integer' name='GameNumber' ordinal='2' />
+            <column datatype='string' name='GameLocation' ordinal='3' />
+            <column datatype='string' name='Team' ordinal='4' />
+            <column datatype='integer' name='TeamScore' ordinal='5' />
+            <column datatype='string' name='Opponent' ordinal='6' />
+            <column datatype='integer' name='OppponentScore' ordinal='7' />
+            <column datatype='string' name='Result' ordinal='8' />
+            <column datatype='integer' name='PassingAttempts' ordinal='9' />
+            <column datatype='integer' name='PassingCompletions' ordinal='10' />
+            <column datatype='integer' name='PassingInterceptions' ordinal='11' />
+            <column datatype='string' name='PasserRating' ordinal='12' />
+            <column datatype='integer' name='PassingSacks' ordinal='13' />
+            <column datatype='integer' name='PassingSacksYardsLost' ordinal='14' />
+            <column datatype='integer' name='PassingTouchdowns' ordinal='15' />
+            <column datatype='integer' name='PassingYards' ordinal='16' />
+            <column datatype='integer' name='ReceivingReceptions' ordinal='17' />
+            <column datatype='integer' name='ReceivingTargets' ordinal='18' />
+            <column datatype='integer' name='ReceivingTouchdowns' ordinal='19' />
+            <column datatype='integer' name='ReceivingYards' ordinal='20' />
+            <column datatype='integer' name='RushingAttempts' ordinal='21' />
+            <column datatype='integer' name='RushingTouchdowns' ordinal='22' />
+            <column datatype='integer' name='RushingYards' ordinal='23' />
+            <column datatype='integer' name='DefenseTackes' ordinal='24' />
+            <column datatype='integer' name='DefenseTackleAssists' ordinal='25' />
+            <column datatype='integer' name='DefenseSacks' ordinal='26' />
+            <column datatype='integer' name='DefenseSafeties' ordinal='27' />
+            <column datatype='integer' name='DefenseInterceptions' ordinal='28' />
+            <column datatype='integer' name='DefenseInterceptionYards' ordinal='29' />
+            <column datatype='integer' name='DefenseInterceptionTouchdowns' ordinal='30' />
+            <column datatype='integer' name='KickReturnAttempts' ordinal='31' />
+            <column datatype='integer' name='KickReturnTouchdowns' ordinal='32' />
+            <column datatype='integer' name='KickReturnYards' ordinal='33' />
+            <column datatype='integer' name='PuntReturnAttempts' ordinal='34' />
+            <column datatype='integer' name='PuntReturnTouchdowns' ordinal='35' />
+            <column datatype='integer' name='PuntReturnYards' ordinal='36' />
+            <column datatype='integer' name='FieldGoalAttempts' ordinal='37' />
+            <column datatype='integer' name='FieldGoals' ordinal='38' />
+            <column datatype='integer' name='PuntingAttempts' ordinal='39' />
+            <column datatype='integer' name='PuntsBlocked' ordinal='40' />
+            <column datatype='integer' name='PuntingYards' ordinal='41' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='excel-direct.0jufhti1snf6gp18rh3kp0q4fusd' name='nfl_football_team_stats' table='[nfl_football_team_stats$]' type='table'>
+          <columns gridOrigin='A1:AP4094:no:A1:AP4094:0' header='yes' outcome='2'>
+            <column datatype='integer' name='Year' ordinal='0' />
+            <column datatype='string' name='Date' ordinal='1' />
+            <column datatype='integer' name='GameNumber' ordinal='2' />
+            <column datatype='string' name='GameLocation' ordinal='3' />
+            <column datatype='string' name='Team' ordinal='4' />
+            <column datatype='integer' name='TeamScore' ordinal='5' />
+            <column datatype='string' name='Opponent' ordinal='6' />
+            <column datatype='integer' name='OppponentScore' ordinal='7' />
+            <column datatype='string' name='Result' ordinal='8' />
+            <column datatype='integer' name='PassingAttempts' ordinal='9' />
+            <column datatype='integer' name='PassingCompletions' ordinal='10' />
+            <column datatype='integer' name='PassingInterceptions' ordinal='11' />
+            <column datatype='string' name='PasserRating' ordinal='12' />
+            <column datatype='integer' name='PassingSacks' ordinal='13' />
+            <column datatype='integer' name='PassingSacksYardsLost' ordinal='14' />
+            <column datatype='integer' name='PassingTouchdowns' ordinal='15' />
+            <column datatype='integer' name='PassingYards' ordinal='16' />
+            <column datatype='integer' name='ReceivingReceptions' ordinal='17' />
+            <column datatype='integer' name='ReceivingTargets' ordinal='18' />
+            <column datatype='integer' name='ReceivingTouchdowns' ordinal='19' />
+            <column datatype='integer' name='ReceivingYards' ordinal='20' />
+            <column datatype='integer' name='RushingAttempts' ordinal='21' />
+            <column datatype='integer' name='RushingTouchdowns' ordinal='22' />
+            <column datatype='integer' name='RushingYards' ordinal='23' />
+            <column datatype='integer' name='DefenseTackes' ordinal='24' />
+            <column datatype='integer' name='DefenseTackleAssists' ordinal='25' />
+            <column datatype='integer' name='DefenseSacks' ordinal='26' />
+            <column datatype='integer' name='DefenseSafeties' ordinal='27' />
+            <column datatype='integer' name='DefenseInterceptions' ordinal='28' />
+            <column datatype='integer' name='DefenseInterceptionYards' ordinal='29' />
+            <column datatype='integer' name='DefenseInterceptionTouchdowns' ordinal='30' />
+            <column datatype='integer' name='KickReturnAttempts' ordinal='31' />
+            <column datatype='integer' name='KickReturnTouchdowns' ordinal='32' />
+            <column datatype='integer' name='KickReturnYards' ordinal='33' />
+            <column datatype='integer' name='PuntReturnAttempts' ordinal='34' />
+            <column datatype='integer' name='PuntReturnTouchdowns' ordinal='35' />
+            <column datatype='integer' name='PuntReturnYards' ordinal='36' />
+            <column datatype='integer' name='FieldGoalAttempts' ordinal='37' />
+            <column datatype='integer' name='FieldGoals' ordinal='38' />
+            <column datatype='integer' name='PuntingAttempts' ordinal='39' />
+            <column datatype='integer' name='PuntsBlocked' ordinal='40' />
+            <column datatype='integer' name='PuntingYards' ordinal='41' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[nfl_football_team_stats]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>0</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:AP4094:no:A1:AP4094:0&quot;</attribute>
+              <attribute datatype='boolean' name='header'>true</attribute>
+              <attribute datatype='integer' name='outcome'>2</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Year</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Year]</local-name>
+            <parent-name>[nfl_football_team_stats]</parent-name>
+            <remote-alias>Year</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[nfl!football!team!stats_F56D813C31EB424796B7A74CFBCA29FD]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Date</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Date]</local-name>
+            <parent-name>[nfl_football_team_stats]</parent-name>
+            <remote-alias>Date</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LFR_RFR_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[nfl!football!team!stats_F56D813C31EB424796B7A74CFBCA29FD]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>GameNumber</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[GameNumber]</local-name>
+            <parent-name>[nfl_football_team_stats]</parent-name>
+            <remote-alias>GameNumber</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[nfl!football!team!stats_F56D813C31EB424796B7A74CFBCA29FD]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>GameLocation</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[GameLocation]</local-name>
+            <parent-name>[nfl_football_team_stats]</parent-name>
+            <remote-alias>GameLocation</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LFR_RFR_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[nfl!football!team!stats_F56D813C31EB424796B7A74CFBCA29FD]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Team</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Team]</local-name>
+            <parent-name>[nfl_football_team_stats]</parent-name>
+            <remote-alias>Team</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LFR_RFR_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[nfl!football!team!stats_F56D813C31EB424796B7A74CFBCA29FD]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>TeamScore</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[TeamScore]</local-name>
+            <parent-name>[nfl_football_team_stats]</parent-name>
+            <remote-alias>TeamScore</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[nfl!football!team!stats_F56D813C31EB424796B7A74CFBCA29FD]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Opponent</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Opponent]</local-name>
+            <parent-name>[nfl_football_team_stats]</parent-name>
+            <remote-alias>Opponent</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LFR_RFR_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[nfl!football!team!stats_F56D813C31EB424796B7A74CFBCA29FD]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>OppponentScore</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[OppponentScore]</local-name>
+            <parent-name>[nfl_football_team_stats]</parent-name>
+            <remote-alias>OppponentScore</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[nfl!football!team!stats_F56D813C31EB424796B7A74CFBCA29FD]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Result</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Result]</local-name>
+            <parent-name>[nfl_football_team_stats]</parent-name>
+            <remote-alias>Result</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LFR_RFR_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[nfl!football!team!stats_F56D813C31EB424796B7A74CFBCA29FD]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>PassingAttempts</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[PassingAttempts]</local-name>
+            <parent-name>[nfl_football_team_stats]</parent-name>
+            <remote-alias>PassingAttempts</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[nfl!football!team!stats_F56D813C31EB424796B7A74CFBCA29FD]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>PassingCompletions</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[PassingCompletions]</local-name>
+            <parent-name>[nfl_football_team_stats]</parent-name>
+            <remote-alias>PassingCompletions</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[nfl!football!team!stats_F56D813C31EB424796B7A74CFBCA29FD]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>PassingInterceptions</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[PassingInterceptions]</local-name>
+            <parent-name>[nfl_football_team_stats]</parent-name>
+            <remote-alias>PassingInterceptions</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[nfl!football!team!stats_F56D813C31EB424796B7A74CFBCA29FD]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>PasserRating</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[PasserRating]</local-name>
+            <parent-name>[nfl_football_team_stats]</parent-name>
+            <remote-alias>PasserRating</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LFR_RFR_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[nfl!football!team!stats_F56D813C31EB424796B7A74CFBCA29FD]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>PassingSacks</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[PassingSacks]</local-name>
+            <parent-name>[nfl_football_team_stats]</parent-name>
+            <remote-alias>PassingSacks</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[nfl!football!team!stats_F56D813C31EB424796B7A74CFBCA29FD]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>PassingSacksYardsLost</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[PassingSacksYardsLost]</local-name>
+            <parent-name>[nfl_football_team_stats]</parent-name>
+            <remote-alias>PassingSacksYardsLost</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[nfl!football!team!stats_F56D813C31EB424796B7A74CFBCA29FD]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>PassingTouchdowns</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[PassingTouchdowns]</local-name>
+            <parent-name>[nfl_football_team_stats]</parent-name>
+            <remote-alias>PassingTouchdowns</remote-alias>
+            <ordinal>15</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[nfl!football!team!stats_F56D813C31EB424796B7A74CFBCA29FD]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>PassingYards</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[PassingYards]</local-name>
+            <parent-name>[nfl_football_team_stats]</parent-name>
+            <remote-alias>PassingYards</remote-alias>
+            <ordinal>16</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[nfl!football!team!stats_F56D813C31EB424796B7A74CFBCA29FD]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ReceivingReceptions</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[ReceivingReceptions]</local-name>
+            <parent-name>[nfl_football_team_stats]</parent-name>
+            <remote-alias>ReceivingReceptions</remote-alias>
+            <ordinal>17</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[nfl!football!team!stats_F56D813C31EB424796B7A74CFBCA29FD]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ReceivingTargets</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[ReceivingTargets]</local-name>
+            <parent-name>[nfl_football_team_stats]</parent-name>
+            <remote-alias>ReceivingTargets</remote-alias>
+            <ordinal>18</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[nfl!football!team!stats_F56D813C31EB424796B7A74CFBCA29FD]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ReceivingTouchdowns</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[ReceivingTouchdowns]</local-name>
+            <parent-name>[nfl_football_team_stats]</parent-name>
+            <remote-alias>ReceivingTouchdowns</remote-alias>
+            <ordinal>19</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[nfl!football!team!stats_F56D813C31EB424796B7A74CFBCA29FD]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ReceivingYards</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[ReceivingYards]</local-name>
+            <parent-name>[nfl_football_team_stats]</parent-name>
+            <remote-alias>ReceivingYards</remote-alias>
+            <ordinal>20</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[nfl!football!team!stats_F56D813C31EB424796B7A74CFBCA29FD]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>RushingAttempts</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[RushingAttempts]</local-name>
+            <parent-name>[nfl_football_team_stats]</parent-name>
+            <remote-alias>RushingAttempts</remote-alias>
+            <ordinal>21</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[nfl!football!team!stats_F56D813C31EB424796B7A74CFBCA29FD]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>RushingTouchdowns</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[RushingTouchdowns]</local-name>
+            <parent-name>[nfl_football_team_stats]</parent-name>
+            <remote-alias>RushingTouchdowns</remote-alias>
+            <ordinal>22</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[nfl!football!team!stats_F56D813C31EB424796B7A74CFBCA29FD]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>RushingYards</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[RushingYards]</local-name>
+            <parent-name>[nfl_football_team_stats]</parent-name>
+            <remote-alias>RushingYards</remote-alias>
+            <ordinal>23</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[nfl!football!team!stats_F56D813C31EB424796B7A74CFBCA29FD]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>DefenseTackes</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[DefenseTackes]</local-name>
+            <parent-name>[nfl_football_team_stats]</parent-name>
+            <remote-alias>DefenseTackes</remote-alias>
+            <ordinal>24</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[nfl!football!team!stats_F56D813C31EB424796B7A74CFBCA29FD]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>DefenseTackleAssists</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[DefenseTackleAssists]</local-name>
+            <parent-name>[nfl_football_team_stats]</parent-name>
+            <remote-alias>DefenseTackleAssists</remote-alias>
+            <ordinal>25</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[nfl!football!team!stats_F56D813C31EB424796B7A74CFBCA29FD]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>DefenseSacks</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[DefenseSacks]</local-name>
+            <parent-name>[nfl_football_team_stats]</parent-name>
+            <remote-alias>DefenseSacks</remote-alias>
+            <ordinal>26</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[nfl!football!team!stats_F56D813C31EB424796B7A74CFBCA29FD]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>DefenseSafeties</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[DefenseSafeties]</local-name>
+            <parent-name>[nfl_football_team_stats]</parent-name>
+            <remote-alias>DefenseSafeties</remote-alias>
+            <ordinal>27</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[nfl!football!team!stats_F56D813C31EB424796B7A74CFBCA29FD]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>DefenseInterceptions</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[DefenseInterceptions]</local-name>
+            <parent-name>[nfl_football_team_stats]</parent-name>
+            <remote-alias>DefenseInterceptions</remote-alias>
+            <ordinal>28</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[nfl!football!team!stats_F56D813C31EB424796B7A74CFBCA29FD]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>DefenseInterceptionYards</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[DefenseInterceptionYards]</local-name>
+            <parent-name>[nfl_football_team_stats]</parent-name>
+            <remote-alias>DefenseInterceptionYards</remote-alias>
+            <ordinal>29</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[nfl!football!team!stats_F56D813C31EB424796B7A74CFBCA29FD]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>DefenseInterceptionTouchdowns</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[DefenseInterceptionTouchdowns]</local-name>
+            <parent-name>[nfl_football_team_stats]</parent-name>
+            <remote-alias>DefenseInterceptionTouchdowns</remote-alias>
+            <ordinal>30</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[nfl!football!team!stats_F56D813C31EB424796B7A74CFBCA29FD]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>KickReturnAttempts</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[KickReturnAttempts]</local-name>
+            <parent-name>[nfl_football_team_stats]</parent-name>
+            <remote-alias>KickReturnAttempts</remote-alias>
+            <ordinal>31</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[nfl!football!team!stats_F56D813C31EB424796B7A74CFBCA29FD]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>KickReturnTouchdowns</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[KickReturnTouchdowns]</local-name>
+            <parent-name>[nfl_football_team_stats]</parent-name>
+            <remote-alias>KickReturnTouchdowns</remote-alias>
+            <ordinal>32</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[nfl!football!team!stats_F56D813C31EB424796B7A74CFBCA29FD]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>KickReturnYards</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[KickReturnYards]</local-name>
+            <parent-name>[nfl_football_team_stats]</parent-name>
+            <remote-alias>KickReturnYards</remote-alias>
+            <ordinal>33</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[nfl!football!team!stats_F56D813C31EB424796B7A74CFBCA29FD]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>PuntReturnAttempts</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[PuntReturnAttempts]</local-name>
+            <parent-name>[nfl_football_team_stats]</parent-name>
+            <remote-alias>PuntReturnAttempts</remote-alias>
+            <ordinal>34</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[nfl!football!team!stats_F56D813C31EB424796B7A74CFBCA29FD]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>PuntReturnTouchdowns</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[PuntReturnTouchdowns]</local-name>
+            <parent-name>[nfl_football_team_stats]</parent-name>
+            <remote-alias>PuntReturnTouchdowns</remote-alias>
+            <ordinal>35</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[nfl!football!team!stats_F56D813C31EB424796B7A74CFBCA29FD]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>PuntReturnYards</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[PuntReturnYards]</local-name>
+            <parent-name>[nfl_football_team_stats]</parent-name>
+            <remote-alias>PuntReturnYards</remote-alias>
+            <ordinal>36</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[nfl!football!team!stats_F56D813C31EB424796B7A74CFBCA29FD]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>FieldGoalAttempts</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[FieldGoalAttempts]</local-name>
+            <parent-name>[nfl_football_team_stats]</parent-name>
+            <remote-alias>FieldGoalAttempts</remote-alias>
+            <ordinal>37</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[nfl!football!team!stats_F56D813C31EB424796B7A74CFBCA29FD]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>FieldGoals</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[FieldGoals]</local-name>
+            <parent-name>[nfl_football_team_stats]</parent-name>
+            <remote-alias>FieldGoals</remote-alias>
+            <ordinal>38</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[nfl!football!team!stats_F56D813C31EB424796B7A74CFBCA29FD]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>PuntingAttempts</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[PuntingAttempts]</local-name>
+            <parent-name>[nfl_football_team_stats]</parent-name>
+            <remote-alias>PuntingAttempts</remote-alias>
+            <ordinal>39</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[nfl!football!team!stats_F56D813C31EB424796B7A74CFBCA29FD]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>PuntsBlocked</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[PuntsBlocked]</local-name>
+            <parent-name>[nfl_football_team_stats]</parent-name>
+            <remote-alias>PuntsBlocked</remote-alias>
+            <ordinal>40</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[nfl!football!team!stats_F56D813C31EB424796B7A74CFBCA29FD]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>PuntingYards</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[PuntingYards]</local-name>
+            <parent-name>[nfl_football_team_stats]</parent-name>
+            <remote-alias>PuntingYards</remote-alias>
+            <ordinal>41</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[nfl!football!team!stats_F56D813C31EB424796B7A74CFBCA29FD]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='NumberofGame' datatype='integer' name='[Calculation_3538562698533842944]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='COUNTD([GameNumber])' />
+      </column>
+      <column caption='Defense Interception Touchdowns' datatype='integer' name='[DefenseInterceptionTouchdowns]' role='measure' type='quantitative' />
+      <column caption='Defense Interception Yards' datatype='integer' name='[DefenseInterceptionYards]' role='measure' type='quantitative' />
+      <column caption='Defense Interceptions' datatype='integer' name='[DefenseInterceptions]' role='measure' type='quantitative' />
+      <column caption='Defense Sacks' datatype='integer' name='[DefenseSacks]' role='measure' type='quantitative' />
+      <column caption='Defense Safeties' datatype='integer' name='[DefenseSafeties]' role='measure' type='quantitative' />
+      <column caption='Defense Tackes' datatype='integer' name='[DefenseTackes]' role='measure' type='quantitative' />
+      <column caption='Defense Tackle Assists' datatype='integer' name='[DefenseTackleAssists]' role='measure' type='quantitative' />
+      <column caption='Field Goal Attempts' datatype='integer' name='[FieldGoalAttempts]' role='measure' type='quantitative' />
+      <column caption='Field Goals' datatype='integer' name='[FieldGoals]' role='measure' type='quantitative' />
+      <column caption='Game Location' datatype='string' name='[GameLocation]' role='dimension' type='nominal' />
+      <column caption='Game Number' datatype='integer' name='[GameNumber]' role='dimension' type='ordinal' />
+      <column caption='Kick Return Attempts' datatype='integer' name='[KickReturnAttempts]' role='measure' type='quantitative' />
+      <column caption='Kick Return Touchdowns' datatype='integer' name='[KickReturnTouchdowns]' role='measure' type='quantitative' />
+      <column caption='Kick Return Yards' datatype='integer' name='[KickReturnYards]' role='measure' type='quantitative' />
+      <column caption='Oppponent Score' datatype='integer' name='[OppponentScore]' role='measure' type='quantitative' />
+      <column caption='Passer Rating' datatype='string' name='[PasserRating]' role='dimension' type='nominal' />
+      <column caption='Passing Attempts' datatype='integer' name='[PassingAttempts]' role='measure' type='quantitative' />
+      <column caption='Passing Completions' datatype='integer' name='[PassingCompletions]' role='measure' type='quantitative' />
+      <column caption='Passing Interceptions' datatype='integer' name='[PassingInterceptions]' role='measure' type='quantitative' />
+      <column caption='Passing Sacks Yards Lost' datatype='integer' name='[PassingSacksYardsLost]' role='measure' type='quantitative' />
+      <column caption='Passing Sacks' datatype='integer' name='[PassingSacks]' role='measure' type='quantitative' />
+      <column caption='Passing Touchdowns' datatype='integer' name='[PassingTouchdowns]' role='measure' type='quantitative' />
+      <column caption='Passing Yards' datatype='integer' name='[PassingYards]' role='measure' type='quantitative' />
+      <column caption='Punt Return Attempts' datatype='integer' name='[PuntReturnAttempts]' role='measure' type='quantitative' />
+      <column caption='Punt Return Touchdowns' datatype='integer' name='[PuntReturnTouchdowns]' role='measure' type='quantitative' />
+      <column caption='Punt Return Yards' datatype='integer' name='[PuntReturnYards]' role='measure' type='quantitative' />
+      <column caption='Punting Attempts' datatype='integer' name='[PuntingAttempts]' role='measure' type='quantitative' />
+      <column caption='Punting Yards' datatype='integer' name='[PuntingYards]' role='measure' type='quantitative' />
+      <column caption='Punts Blocked' datatype='integer' name='[PuntsBlocked]' role='measure' type='quantitative' />
+      <column caption='Receiving Receptions' datatype='integer' name='[ReceivingReceptions]' role='measure' type='quantitative' />
+      <column caption='Receiving Targets' datatype='integer' name='[ReceivingTargets]' role='measure' type='quantitative' />
+      <column caption='Receiving Touchdowns' datatype='integer' name='[ReceivingTouchdowns]' role='measure' type='quantitative' />
+      <column caption='Receiving Yards' datatype='integer' name='[ReceivingYards]' role='measure' type='quantitative' />
+      <column caption='Rushing Attempts' datatype='integer' name='[RushingAttempts]' role='measure' type='quantitative' />
+      <column caption='Rushing Touchdowns' datatype='integer' name='[RushingTouchdowns]' role='measure' type='quantitative' />
+      <column caption='Rushing Yards' datatype='integer' name='[RushingYards]' role='measure' type='quantitative' />
+      <column caption='Team Score' datatype='integer' name='[TeamScore]' role='measure' type='quantitative' />
+      <column datatype='integer' name='[Year]' role='dimension' type='quantitative' />
+      <_.fcp.ObjectModelTableType.true...column caption='nfl_football_team_stats' datatype='table' name='[__tableau_internal_object_id__].[nfl!football!team!stats_F56D813C31EB424796B7A74CFBCA29FD]' role='measure' type='quantitative' />
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;France&quot;' />
+      </semantic-values>
+      <date-options start-of-week='monday' />
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='nfl_football_team_stats' id='nfl!football!team!stats_F56D813C31EB424796B7A74CFBCA29FD'>
+            <properties context=''>
+              <relation connection='excel-direct.0jufhti1snf6gp18rh3kp0q4fusd' name='nfl_football_team_stats' table='[nfl_football_team_stats$]' type='table'>
+                <columns gridOrigin='A1:AP4094:no:A1:AP4094:0' header='yes' outcome='2'>
+                  <column datatype='integer' name='Year' ordinal='0' />
+                  <column datatype='string' name='Date' ordinal='1' />
+                  <column datatype='integer' name='GameNumber' ordinal='2' />
+                  <column datatype='string' name='GameLocation' ordinal='3' />
+                  <column datatype='string' name='Team' ordinal='4' />
+                  <column datatype='integer' name='TeamScore' ordinal='5' />
+                  <column datatype='string' name='Opponent' ordinal='6' />
+                  <column datatype='integer' name='OppponentScore' ordinal='7' />
+                  <column datatype='string' name='Result' ordinal='8' />
+                  <column datatype='integer' name='PassingAttempts' ordinal='9' />
+                  <column datatype='integer' name='PassingCompletions' ordinal='10' />
+                  <column datatype='integer' name='PassingInterceptions' ordinal='11' />
+                  <column datatype='string' name='PasserRating' ordinal='12' />
+                  <column datatype='integer' name='PassingSacks' ordinal='13' />
+                  <column datatype='integer' name='PassingSacksYardsLost' ordinal='14' />
+                  <column datatype='integer' name='PassingTouchdowns' ordinal='15' />
+                  <column datatype='integer' name='PassingYards' ordinal='16' />
+                  <column datatype='integer' name='ReceivingReceptions' ordinal='17' />
+                  <column datatype='integer' name='ReceivingTargets' ordinal='18' />
+                  <column datatype='integer' name='ReceivingTouchdowns' ordinal='19' />
+                  <column datatype='integer' name='ReceivingYards' ordinal='20' />
+                  <column datatype='integer' name='RushingAttempts' ordinal='21' />
+                  <column datatype='integer' name='RushingTouchdowns' ordinal='22' />
+                  <column datatype='integer' name='RushingYards' ordinal='23' />
+                  <column datatype='integer' name='DefenseTackes' ordinal='24' />
+                  <column datatype='integer' name='DefenseTackleAssists' ordinal='25' />
+                  <column datatype='integer' name='DefenseSacks' ordinal='26' />
+                  <column datatype='integer' name='DefenseSafeties' ordinal='27' />
+                  <column datatype='integer' name='DefenseInterceptions' ordinal='28' />
+                  <column datatype='integer' name='DefenseInterceptionYards' ordinal='29' />
+                  <column datatype='integer' name='DefenseInterceptionTouchdowns' ordinal='30' />
+                  <column datatype='integer' name='KickReturnAttempts' ordinal='31' />
+                  <column datatype='integer' name='KickReturnTouchdowns' ordinal='32' />
+                  <column datatype='integer' name='KickReturnYards' ordinal='33' />
+                  <column datatype='integer' name='PuntReturnAttempts' ordinal='34' />
+                  <column datatype='integer' name='PuntReturnTouchdowns' ordinal='35' />
+                  <column datatype='integer' name='PuntReturnYards' ordinal='36' />
+                  <column datatype='integer' name='FieldGoalAttempts' ordinal='37' />
+                  <column datatype='integer' name='FieldGoals' ordinal='38' />
+                  <column datatype='integer' name='PuntingAttempts' ordinal='39' />
+                  <column datatype='integer' name='PuntsBlocked' ordinal='40' />
+                  <column datatype='integer' name='PuntingYards' ordinal='41' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='TotaldistGameNumber'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='nfl_football_team_stats (nfl_football_team_stats)' name='federated.1ngqhpr19syuwf1ct8kqx124hgma' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1ngqhpr19syuwf1ct8kqx124hgma'>
+            <column caption='Game Number' datatype='integer' name='[GameNumber]' role='dimension' type='ordinal' />
+            <column datatype='integer' name='[Year]' role='dimension' type='quantitative' />
+            <column-instance column='[GameNumber]' derivation='CountD' name='[ctd:GameNumber:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Year]' derivation='None' name='[none:Year:ok]' pivot='key' type='ordinal' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Bar' />
+          </pane>
+        </panes>
+        <rows>[federated.1ngqhpr19syuwf1ct8kqx124hgma].[ctd:GameNumber:qk]</rows>
+        <cols>[federated.1ngqhpr19syuwf1ct8kqx124hgma].[none:Year:ok]</cols>
+      </table>
+      <simple-id uuid='{E5000476-CBA3-4215-87BD-2D9481F695CA}' />
+    </worksheet>
+    <worksheet name='nbrecord_year'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='nfl_football_team_stats (nfl_football_team_stats)' name='federated.1ngqhpr19syuwf1ct8kqx124hgma' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1ngqhpr19syuwf1ct8kqx124hgma'>
+            <column caption='Defense Interception Touchdowns' datatype='integer' name='[DefenseInterceptionTouchdowns]' role='measure' type='quantitative' />
+            <column caption='Defense Interception Yards' datatype='integer' name='[DefenseInterceptionYards]' role='measure' type='quantitative' />
+            <column caption='Defense Interceptions' datatype='integer' name='[DefenseInterceptions]' role='measure' type='quantitative' />
+            <column caption='Defense Sacks' datatype='integer' name='[DefenseSacks]' role='measure' type='quantitative' />
+            <column caption='Defense Safeties' datatype='integer' name='[DefenseSafeties]' role='measure' type='quantitative' />
+            <column caption='Defense Tackes' datatype='integer' name='[DefenseTackes]' role='measure' type='quantitative' />
+            <column caption='Defense Tackle Assists' datatype='integer' name='[DefenseTackleAssists]' role='measure' type='quantitative' />
+            <column caption='Field Goal Attempts' datatype='integer' name='[FieldGoalAttempts]' role='measure' type='quantitative' />
+            <column caption='Field Goals' datatype='integer' name='[FieldGoals]' role='measure' type='quantitative' />
+            <column caption='Kick Return Attempts' datatype='integer' name='[KickReturnAttempts]' role='measure' type='quantitative' />
+            <column caption='Kick Return Touchdowns' datatype='integer' name='[KickReturnTouchdowns]' role='measure' type='quantitative' />
+            <column caption='Kick Return Yards' datatype='integer' name='[KickReturnYards]' role='measure' type='quantitative' />
+            <column caption='Oppponent Score' datatype='integer' name='[OppponentScore]' role='measure' type='quantitative' />
+            <column caption='Passing Attempts' datatype='integer' name='[PassingAttempts]' role='measure' type='quantitative' />
+            <column caption='Passing Completions' datatype='integer' name='[PassingCompletions]' role='measure' type='quantitative' />
+            <column caption='Passing Interceptions' datatype='integer' name='[PassingInterceptions]' role='measure' type='quantitative' />
+            <column caption='Passing Sacks Yards Lost' datatype='integer' name='[PassingSacksYardsLost]' role='measure' type='quantitative' />
+            <column caption='Passing Sacks' datatype='integer' name='[PassingSacks]' role='measure' type='quantitative' />
+            <column caption='Passing Touchdowns' datatype='integer' name='[PassingTouchdowns]' role='measure' type='quantitative' />
+            <column caption='Passing Yards' datatype='integer' name='[PassingYards]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[Year]' role='dimension' type='quantitative' />
+            <_.fcp.ObjectModelTableType.false...column caption='nfl_football_team_stats' datatype='integer' name='[__tableau_internal_object_id__].[nfl!football!team!stats_F56D813C31EB424796B7A74CFBCA29FD]' role='measure' type='quantitative' />
+            <column-instance column='[__tableau_internal_object_id__].[nfl!football!team!stats_F56D813C31EB424796B7A74CFBCA29FD]' derivation='Count' name='[__tableau_internal_object_id__].[cnt:nfl!football!team!stats_F56D813C31EB424796B7A74CFBCA29FD:qk]' pivot='key' type='quantitative' />
+            <_.fcp.ObjectModelTableType.true...column caption='nfl_football_team_stats' datatype='table' name='[__tableau_internal_object_id__].[nfl!football!team!stats_F56D813C31EB424796B7A74CFBCA29FD]' role='measure' type='quantitative' />
+            <column-instance column='[Year]' derivation='None' name='[none:Year:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[DefenseInterceptionTouchdowns]' derivation='Sum' name='[sum:DefenseInterceptionTouchdowns:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[DefenseInterceptionYards]' derivation='Sum' name='[sum:DefenseInterceptionYards:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[DefenseInterceptions]' derivation='Sum' name='[sum:DefenseInterceptions:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[DefenseSacks]' derivation='Sum' name='[sum:DefenseSacks:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[DefenseSafeties]' derivation='Sum' name='[sum:DefenseSafeties:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[DefenseTackes]' derivation='Sum' name='[sum:DefenseTackes:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[DefenseTackleAssists]' derivation='Sum' name='[sum:DefenseTackleAssists:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[FieldGoalAttempts]' derivation='Sum' name='[sum:FieldGoalAttempts:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[FieldGoals]' derivation='Sum' name='[sum:FieldGoals:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[KickReturnAttempts]' derivation='Sum' name='[sum:KickReturnAttempts:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[KickReturnTouchdowns]' derivation='Sum' name='[sum:KickReturnTouchdowns:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[KickReturnYards]' derivation='Sum' name='[sum:KickReturnYards:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[OppponentScore]' derivation='Sum' name='[sum:OppponentScore:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[PassingAttempts]' derivation='Sum' name='[sum:PassingAttempts:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[PassingCompletions]' derivation='Sum' name='[sum:PassingCompletions:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[PassingInterceptions]' derivation='Sum' name='[sum:PassingInterceptions:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[PassingSacks]' derivation='Sum' name='[sum:PassingSacks:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[PassingSacksYardsLost]' derivation='Sum' name='[sum:PassingSacksYardsLost:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[PassingTouchdowns]' derivation='Sum' name='[sum:PassingTouchdowns:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[PassingYards]' derivation='Sum' name='[sum:PassingYards:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.1ngqhpr19syuwf1ct8kqx124hgma].[:Measure Names]'>
+            <groupfilter function='union' user:op='manual'>
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1ngqhpr19syuwf1ct8kqx124hgma].[sum:DefenseInterceptionTouchdowns:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1ngqhpr19syuwf1ct8kqx124hgma].[sum:DefenseInterceptionYards:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1ngqhpr19syuwf1ct8kqx124hgma].[sum:DefenseInterceptions:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1ngqhpr19syuwf1ct8kqx124hgma].[sum:DefenseSacks:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1ngqhpr19syuwf1ct8kqx124hgma].[sum:DefenseSafeties:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1ngqhpr19syuwf1ct8kqx124hgma].[sum:DefenseTackes:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1ngqhpr19syuwf1ct8kqx124hgma].[sum:DefenseTackleAssists:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1ngqhpr19syuwf1ct8kqx124hgma].[sum:FieldGoalAttempts:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1ngqhpr19syuwf1ct8kqx124hgma].[sum:FieldGoals:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1ngqhpr19syuwf1ct8kqx124hgma].[sum:KickReturnAttempts:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1ngqhpr19syuwf1ct8kqx124hgma].[sum:KickReturnTouchdowns:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1ngqhpr19syuwf1ct8kqx124hgma].[sum:KickReturnYards:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1ngqhpr19syuwf1ct8kqx124hgma].[sum:OppponentScore:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1ngqhpr19syuwf1ct8kqx124hgma].[sum:PassingAttempts:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1ngqhpr19syuwf1ct8kqx124hgma].[sum:PassingCompletions:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1ngqhpr19syuwf1ct8kqx124hgma].[sum:PassingInterceptions:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1ngqhpr19syuwf1ct8kqx124hgma].[sum:PassingSacks:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1ngqhpr19syuwf1ct8kqx124hgma].[sum:PassingSacksYardsLost:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1ngqhpr19syuwf1ct8kqx124hgma].[sum:PassingTouchdowns:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1ngqhpr19syuwf1ct8kqx124hgma].[sum:PassingYards:qk]&quot;' />
+            </groupfilter>
+          </filter>
+          <slices>
+            <column>[federated.1ngqhpr19syuwf1ct8kqx124hgma].[:Measure Names]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Bar' />
+            <encodings>
+              <lod column='[federated.1ngqhpr19syuwf1ct8kqx124hgma].[:Measure Names]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>[federated.1ngqhpr19syuwf1ct8kqx124hgma].[__tableau_internal_object_id__].[cnt:nfl!football!team!stats_F56D813C31EB424796B7A74CFBCA29FD:qk]</rows>
+        <cols>[federated.1ngqhpr19syuwf1ct8kqx124hgma].[none:Year:qk]</cols>
+      </table>
+      <simple-id uuid='{D8973523-F338-4EC3-AB77-6B2E53E06272}' />
+    </worksheet>
+  </worksheets>
+  <windows source-height='30'>
+    <window class='worksheet' name='nbrecord_year'>
+      <cards>
+        <edge name='left'>
+          <strip size='300'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.1ngqhpr19syuwf1ct8kqx124hgma].[none:Year:qk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{6F00D186-2B71-4421-BF37-901CC2C189CA}' />
+    </window>
+    <window class='worksheet' maximized='true' name='TotaldistGameNumber'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.1ngqhpr19syuwf1ct8kqx124hgma].[none:GameNumber:ok]</field>
+            <field>[federated.1ngqhpr19syuwf1ct8kqx124hgma].[none:Year:qk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{3043B7BF-6C0B-4C6E-A471-3D73A87967B2}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='384' name='TotaldistGameNumber' width='384'>
+      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
+    </thumbnail>
+    <thumbnail height='384' name='nbrecord_year' width='384'>
+      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
+      /93DO/T8ztloAAAAAElFTkSuQmCC
+    </thumbnail>
+  </thumbnails>
+</workbook>
